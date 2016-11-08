@@ -14,7 +14,6 @@ The RC system is an interestung system to harvest part of the wasted energy. An 
 - Condenser
 - Pump
 The waste heat is used in the evaporator to vaporize the working fluid and convert the heat in mechanical work in the expander.
-
 Extensive work has been poured in RC + ICE combinations, leading to fuel saving in the order of 10 - 15% when applied to truck diesel engines.
 
 RC are system widely adopted in a large range of WHR situations, however heat sources on vehicles are different from other typical industrial heat sources, which are stable and no space limitation for the RC system. To be technically feasible for vehicle RC application, the cycle system should be kept as simple as possible and utilize components that already exist in the vehicles in order to reduce the added expense, weight and complexity of the system. Besides, the temperature ranges of the two main heat sources on vehicles are significantly different which requires special treatment.
