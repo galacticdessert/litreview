@@ -30,3 +30,34 @@ It was argued that the reason why it is not advantageous to build combined engin
 There are two additional configurations possible for WHR. Instead of using engine coolant to preheat the working  uid, the engine block, which has higher temperature, is used to partially evaporate the working fluid. For this structure, complete evaporation of the working  uid inside the engine block should be prevented. It should reach intermediate boiling in the engine block, so that two-phase mixture would flow out of the engine block and into the evaporator to complete the boiling and superheating process by exhaust gas. The second option is to build separate system loops and use different working fluids to match the speci c characteristics of engine coolant and exhaust gas. This system has been developed by BMW, in which waster was used as the medium in the high-temperature (HT) loop and ethanol as working fluid in the low-temperature (LT) loop. The dual loop system can utilize the full potential of the waste energy with the disadvantage of large system volume and system complexity. Another RC system which integrated with engine cooling, this system minimized the number of required components by adopting an evaporative engine cooling structure and a refrigerant as the working fluid, so that the engine functioned as an evaporator and the existing radiator worked as a condenser. The only extra component added to the system is an expander for power conversion. However, this structure requires a modification of the existing engine cooling system, while the current engine cooling technology is quite mature and widely taken and has been using 50/50 water ethylene glycol as the coolant for decades.
 
 When selecting the different configurations, different factors have to be take into consideration as the maximization of the recovered energy is not the only objective to pursue. System complexity, component volume and weight, and the resulted extra cost added to the vehicles and the payback period are also big concerns.
+
+*** Applications to passenger vehicles to date
+
+**** Possible efficiency improvements
+Two improvements are mainly used in the literature to asses the impact of RC systems: /thermal efficiency/ and /mechanical efficiency/.
+Thermal efficiency is defined as 
+\begin{equation}
+\eta_{th} = \frac{W_{RC}}{m_{fuel} \cdot LHV}
+\end{equation}
+while mechanical efficiency is defined as 
+\begin{equation}
+\eta_{m} = \frac{W_{RC}}{P_{e}}
+\end{equation}
+
+Assuming one third of the total fuel energy is transferred to mechanical power output, which is a typical value for modern internal combustion engine, then usually the thermal efficiency is about one third of the mechanical efficiency.
+
+**** Historical review
+| Year | Researcher           | Technology           | % power recovered | $\Delta$ c thermal $\eta$ | $\Delta$ mechanical $\eta$ |
+|------+----------------------+----------------------+-------------------+---------------------------+----------------------------|
+| 1993 | Toyota               |                      |                3% |                        1% |                            |
+|      | Chammas and Clodic   | steam RC             |                   |                        4% |                            |
+|      | Chammas and Clodic   | organic RC           |                   |                        5% |                            |
+|      | Arias, Shedd, Jester | System 4             |              5.5% |       7.5% da controllare |                            |
+| 2007 | Honda R&D            | RC with hybrid       |                   |   28.9% - 32.7% @100 km/h |                            |
+| 2008 | BMW                  | turbosteamer         |           10-15 % |                      5.7% |                            |
+| 2012 | BMW                  | turbosteamer 2       |                6% |                        2% |                            |
+|      | He et al.            | Kalina cycle         |                   |                  12-17.3% |                            |
+|      | Wand et al.          | Dual loop + extra HX |          14 - 40% |                      3-6% |                            |
+|      | Domingues et al.     | Simplest RC system   |                   |                           | 2.64 - 6.96%               |
+                                                                                                                                  
+                                                                                                                                 
