@@ -1,0 +1,20 @@
+* Introduction of the problem
+On-road vehicles, which convert around one third of the fuel energy into useful mechanical energy for propulsion, are moving energy conversion systems that generate considerable waste heat. Due to the inefficiency of the internal combustion engine, around 60-70% of the fuel energy is wasted in the form of heat.
+Rankine cycle has a great potential to be applied to harvest waste heat from automobiles. However, different from other low-grade waste heat sources, vehicles have limited space for the RC system integration and the waste heat is relatively unstable.
+It has been estimated that the thermal efficiency of a modern IC engine is limited to 20-40% while 33% of the fuel energy from a typical medium-size passenger vehicle is carried away by exhaust gases and 29% is carried away by engine cooling water in urban traffic conditions. Depending on engine type and operating conditions, the IC exhaust gas temperature usually varies from 500 to 900 °C and engine cooling water temperature is around 100 °C.
+
+There are different possibile technologies that are being researched in order to 
+[Zhou Dede Joshi]
+
+* Possibile solutions
+** Rankine cycle
+The RC system is an interestung system to harvest part of the wasted energy. An RC system is made of four main components:
+- Evaporator
+- Expander
+- Condenser
+- Pump
+The waste heat is used in the evaporator to vaporize the working fluid and convert the heat in mechanical work in the expander.
+
+Extensive work has been poured in RC + ICE combinations, leading to fuel saving in the order of 10 - 15% when applied to truck diesel engines.
+
+RC are system widely adopted in a large range of WHR situations, however heat sources on vehicles are different from other typical industrial heat sources, which are stable and no space limitation for the RC system. To be technically feasible for vehicle RC application, the cycle system should be kept as simple as possible and utilize components that already exist in the vehicles in order to reduce the added expense, weight and complexity of the system. Besides, the temperature ranges of the two main heat sources on vehicles are significantly different which requires special treatment.
