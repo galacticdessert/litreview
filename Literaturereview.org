@@ -18,7 +18,6 @@ Rankine cycle has a great potential to be applied to harvest waste heat from aut
 It has been estimated that the thermal efficiency of a modern IC engine is limited to 20-40% while 33% of the fuel energy from a typical medium-size passenger vehicle is carried away by exhaust gases and 29% is carried away by engine cooling water in urban traffic conditions. Depending on engine type and operating conditions, the IC exhaust gas temperature usually varies from 500 to 900 °C and engine cooling water temperature is around 100 °C.
 Engine coolant and exhaust gas are two main heat sources in a vehicle, which carry a similar amount of thermal energy. However, exhaust gas shows a much greater recovery potential in terms of exergy because of a much higher temperature range. For this reason, recover heat from the two sources using the same loop and same working fluid might not be appropriate due to the potential mismatch between fluid properties and heat sources temperature ranges. The waste heat from the engine could be harvested either by pumping the working fluid through the engine block or using a separate loop and different working fluids.
 
-
 * Possibile solutions
 ** Organic Rankine Cycle
 Organic Rankine Cycle (ORC), which uses an organic fluid with a low boiling point working medium, is considered as the most promising technology to recover energy from low-grade waste heat.
@@ -67,6 +66,9 @@ Lab demonstration was designed to maximize the peak brake thermal efficiency of 
 The high load factor of heavy-duty engines was deemed a more appropriate match to bottoming cycles. However, in recent years there has been an increased emphasis on light-duty vehicle efficiency as well.
 The organic Rankine cycle system was installed on a General Motors 1.9-liter diesel engine. The high exhaust temperature drove the selection of exhaust heat as the energy source for the ORC. Since the ORC impacts the backpressure on the engine and therefore its performance it is necessary to analyze the change in efficiency between the engine-only and engine +ORC operating cases.
 Engine operation was not significantly affected by the addition of the ORC heat exchangers to the exhaust system. The backpressure at the turbine exit was increased by 13.8 kPa; this is a similar backpressure increase as a muffler would provide. Past researchers have found that the heat exchangers can replace the muffler in a vehicle, eliminating the additional loss that would otherwise be expected.
+**** Evaporative engine cooling system
+Evaporative engine cooling system is utilized to obtain high thermal efficiency and simplicity of the Rankine bottoming system. There is the possivility for the application of Rankine bottoming system to passenger cars, with an attempt made to combine the evaporative engine cooling system and Rankine bottoming system for the simplification of system.
+In case of passenger cars, however, the temperature and calorific value of exhaust gas tend to fluctuate markedly because of frequent repetition of starting and stopping in urban areas, which are different from the running pattern of trucks used for long-distance transportation.
 *** Applications to passenger vehicles to date
 
 **** Possible efficiency improvements
@@ -133,7 +135,7 @@ The dry/isentropic organic fluids have a few shortcomings. First, the intrisic p
 - R245fa
 - R1233zd (for high temperature)
 - R1234yf (for low temperature), both have lower toxicities than the two before but similar characteristics
-- 
+- HCFC123
 
 * System integration
 To utilize the waste heat from vehicles via Rankine cycle system, a best compromise between the system complexity and fuel saving potential needs to be found out. Regarding vehicle integration, it is widely acknowledged that how to minimize the system complexity, weight, costs and the negative effect on the existing components is more important than maximizing the RC power output.
