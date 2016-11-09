@@ -1,3 +1,8 @@
+* Idee di cui voglio parlare
+- Focalizzarsi sulla mobilità ibrida e quindi usare il sistema di WHR per produrre energia elettrica. Questo permetterebbe di pensare a una turbina ad azione e non scroll, possibile aumento dell'efficenza. Ibrido futuro?
+- Quanto ci perdiamo con lo scroll? La penalità di peso è eccessiva?
+
+
 * Introduction to the problem
 On-road vehicles, which convert around one third of the fuel energy into useful mechanical energy for propulsion, are moving energy conversion systems that generate considerable waste heat. Due to the inefficiency of the internal combustion engine, around 60-70% of the fuel energy is wasted in the form of heat.
 Rankine cycle has a great potential to be applied to harvest waste heat from automobiles. However, different from other low-grade waste heat sources, vehicles have limited space for the RC system integration and the waste heat is relatively unstable.
@@ -5,6 +10,7 @@ It has been estimated that the thermal efficiency of a modern IC engine is limit
 
 There are different possibile technologies that are being researched in order to 
 [Zhou Dede Joshi]
+
 
 * Possibile solutions
 ** Rankine cycle
@@ -61,3 +67,25 @@ Assuming one third of the total fuel energy is transferred to mechanical power o
 |      | Domingues et al.     | Simplest RC system   |                   |                           | 2.64 - 6.96%               |
                                                                                                                                   
                                                                                                                                  
+*** Expanders
+Critical aspect that has to be chosen carefully. Many factors need to be considered during the process of expander selection for a RC system targeting passenger vehicles, e.g. inlet and outlet working conditions, pressure ratio, power output, working  uid, weight, volume, cost, reliability, isentropic ef ciency, lubrication requirement, complexity, rotational speed, etc. In general, expander can be categorized into two types: velocity type, e.g. axial turbine expander, and volume type, e.g. scroll expander, screw expander and reciprocal piston expander.
+
+**** Turbine expander
+A turbine expander is rotary machine that converts the kinetic energy carried by a  uid stream into mechanical energy when it passes through a set of blades. Commercial micro-turbines available but not widely used (Domingues). The reduced mass and overall dimensions made the turbine one of the most appropriate expander for a RC vehicle waste heat recovery application. Due to the lack of commercial micro-turbine expanders, most researchers used their in-house speci cally designed turbine to test their RC system, usually impulse turbines. BMW’s second generation Turbosteamer  adopted a speci cally designed two-stage impulse turbine integrated with an electric generator for their RC system, see Figure 8. The turbine works in the pressure range of 6-10 bar and the rotary speed is about 50,000 to 100,000 rpm. The electrical power output of the unit is about a 2 kW. Compared to a scaled-down reaction turbine which is generally used in power plants, the impulse turbine design signi cantly reduces the  ow leakage. Lubrication free is another advantage of this design compared to volumetric expansion machines.
+
+In general, the advantages of a turbine expander include compact structure, light weight and high ef ciency. However, the design and manufacturing of turbine is very dif cult, which leads to a relatively higher cost and the turbine ef ciency decreases signi cantly under off-design conditions. Besides, a turbine expander puts more constraints to the working  uid selection since a turbine cannot bear two-phase condition. Therefore if the heat addition is variable, the wetness in the expansion process may become uncontrollable and the droplets may damage the turbine blades. Also, a speed reduction gearbox might be required if the turbine outputs the mechanical energy directly to the crank shaft due to the speed mismatch. It is suggested that turbine expanders are preferred to be combined with electrical generators for energy conversion and storage, which make it a practical solution for hybrid vehicles
+
+**** Scroll Expander
+Scroll expander is one of the displacement type expanding machines, which are characterized by lower  ow rates, higher pressure ratios and much lower rotational speeds than turbo-machines. Advantages of this kind of technology are compact structure, reliability, fewer moving parts, lower level of noise and vibration. Besides, compare to turbine expander, these displacement type machines can tolerate two-phase conditions, which may difficult to be avoided at the end of the expansion considering the dynamic operating conditions in vehicles.
+For RC system with small power output, leakage of the working  uid was the dominant cause of low ef ciency of scroll expander. The first RC application to passenger vehicle study from Toyota adopted a scroll expander which had an inlet volume of 40 cc and an expansion ratio of 2. The size of the scroll expander is 120 mm by 190 mm. The maximum expander efficiency reached in the study is approximately 50%. It was found that the expander ef ciency decreases as the revolution became lower than 1000 rpm due to the deterioration of sealing at low revolution speed which led to leakage of the working fluid.
+
+**** Screw Expander
+This type of expander is composed of a pair of meshing helical rotors, packing within a case with approximately 50 μm clearances. When the rotors rotate, the volume trapped between the rotors and the casing changes, which makes the fluid volume either increase or decrease, depending on the rotational direction. However, micro-scale screw expander (<10 kWe) for vehicle application is hard to be obtained in the current market and few reports from open literature were found for screw expander application to RC system with power output lower than 10 kWe.
+In general, screw expander can tolerate two-phase flow and is highly efficient in off-design conditions. However, like other positive displacement devices, the seal is critical to prevent internal leakage. Besides, lubrication is required to avoid direct contact but also achieve a seal between the lobes of the two rotors, which makes it relatively more expensive to fabricate than scroll expanders.
+**** Reciprocating piston expander
+     Reciprocating machines have a good isentropic efficiency (about 70%) and a good power output/size ratio. Endo et al. from Honda R&D chose volumetric axial piston as the expanding machine for their RC system due to its low operating speed and comparatively  at efficiency characteristics compared to turbine expander. In general, piston expanders show some advantages over other expansion machines, such as larger built-in volume ratio, high achievable operating pressures and temperatures, ability to tolerate two-phase flow and low rotational speeds.
+     
+
+*** Working Fluids
+Special attention should be paid to the working fluid selection according to the heat source temperature, which has a significant effect on the system thermal and exergetic efficiency. When implementing a RC system to a passenger vehicle is considered, stricter criterion should be adopted for the fluid selection to minimize the harm potential to passengers in case leakages or crashes happen, e.g. low flammability level is a major concern for passenger vehicle application. Therefore, alcohols and hydrocarbons, in spite of their good thermodynamic efficiencies, are arguably not the best candidates. Instead, the refrigerants, which have already been used in automotive AC systems, are usually better options. Generally, according to the slope of the saturation curve, the working fluid can be categorized into three different types, wet fluid, dry fluid and isentropic fluid.
+Most inorganic fluids are wet fluids, but this means that the expansion ends in two-phase region. Water has been used by auto manufacturers like Honda and BMW, bugt according to Arias et al. when water was selected as the working fluid, the waste heat from the engine coolant wouldn’t be effectively recovered by the system due to the mismatch between the low temperature of engine coolant and high boiling temperature of water.
