@@ -11,8 +11,9 @@
 ** TODO Integration of the WHR with a battery pack 
 ** TODO Compare efficiencies of different expanders at variable mass flow rate
 ** TODO Boretti document
+** TODO Mathematical modeling of a super-critical CO2 cycle
 * Introduction to the problem
-On-road vehicles, which convert around one third of the fuel energy into useful mechanical energy for propulsion, are moving energy conversion systems that generate considerable waste heat. Due to the inefficiency of the internal combustion engine, around 60-70% of the fuel energy is wasted in the form of heat.
+On-road vehicles, which convert around one third of the fuel energy into useful mechanical energy for propulsion, are moving energy conversion systems that generate considerable waste heat. Due to the inefficiency of the internal combustion engine, around 60-70% of the fuel energy is wasted in the form of heat. Caton indicates that approximately 40% of the fuel energy leaves the engine in the hot exhaust and another another 30% is lost as heat.  Regardless of how efficient the engine is, there will still be a significant fraction of the fuel energy that is rejected in the exhaust and coolant streams.
 Rankine cycle has a great potential to be applied to harvest waste heat from automobiles. However, different from other low-grade waste heat sources, vehicles have limited space for the RC system integration and the waste heat is relatively unstable.
 It has been estimated that the thermal efficiency of a modern IC engine is limited to 20-40% while 33% of the fuel energy from a typical medium-size passenger vehicle is carried away by exhaust gases and 29% is carried away by engine cooling water in urban traffic conditions. Depending on engine type and operating conditions, the IC exhaust gas temperature usually varies from 500 to 900 °C and engine cooling water temperature is around 100 °C.
 Engine coolant and exhaust gas are two main heat sources in a vehicle, which carry a similar amount of thermal energy. However, exhaust gas shows a much greater recovery potential in terms of exergy because of a much higher temperature range. For this reason, recover heat from the two sources using the same loop and same working fluid might not be appropriate due to the potential mismatch between fluid properties and heat sources temperature ranges. The waste heat from the engine could be harvested either by pumping the working fluid through the engine block or using a separate loop and different working fluids.
@@ -61,6 +62,11 @@ Wang et al, 2012, Zhang et al, 2013, and Yang et al, 2014, proposed a dual-loop 
 
 The thermal efficiency of the HT loop with R1233zd is slightly higher than that of the R245fa. On the other hand, the thermal efficiencies of the LT loop using R1234yf are slighter lower than those of the R134a under all the ambient temperatures. As a result, the thermodynamic performance of the dual-loop ORC with R1233zd and R1234yf is slightly higher than that with R245fa and R134a. However, the dual-loop ORC with R1233zd and R1234yf has better environmental performance and thus more suitable for engine waste heat recovery.
 
+**** WHR for light duty diesel engines (Thomas Briggs etc.)
+Lab demonstration was designed to maximize the peak brake thermal efficiency of the engine, and the combined system achieved an efficiency of 45%. A modern automotive diesel engine can easily achieve a 42% brake thermal efficiency at its optimum operating point.
+The high load factor of heavy-duty engines was deemed a more appropriate match to bottoming cycles. However, in recent years there has been an increased emphasis on light-duty vehicle efficiency as well.
+The organic Rankine cycle system was installed on a General Motors 1.9-liter diesel engine. The high exhaust temperature drove the selection of exhaust heat as the energy source for the ORC. Since the ORC impacts the backpressure on the engine and therefore its performance it is necessary to analyze the change in efficiency between the engine-only and engine +ORC operating cases.
+Engine operation was not significantly affected by the addition of the ORC heat exchangers to the exhaust system. The backpressure at the turbine exit was increased by 13.8 kPa; this is a similar backpressure increase as a muffler would provide. Past researchers have found that the heat exchangers can replace the muffler in a vehicle, eliminating the additional loss that would otherwise be expected.
 *** Applications to passenger vehicles to date
 
 **** Possible efficiency improvements
