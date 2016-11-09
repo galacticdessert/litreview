@@ -1,12 +1,14 @@
-* Idee di cui voglio parlare
+* IDEAS
 - Focalizzarsi sulla mobilità ibrida e quindi usare il sistema di WHR per produrre energia elettrica. Questo permetterebbe di pensare a una turbina ad azione e non scroll, possibile aumento dell'efficenza. Ibrido futuro?
 - Quanto ci perdiamo con lo scroll? La penalità di peso è eccessiva?
 
-* Approfondire
+* TO-DO list
 ** TODO Working fluids
 ** TODO Properties of organic fluids
-** TODO Supercritical principles
-
+** TODO Super-critical principles
+** TODO Weight influence on fuel consumption
+** TODO Capire bene l'influenza delle perdite di pressione e se usare il sistema evaporative cooling potrebbe aiutare (reference 70)
+** TODO Integration of the WHR with a battery pack 
 * Introduction to the problem
 On-road vehicles, which convert around one third of the fuel energy into useful mechanical energy for propulsion, are moving energy conversion systems that generate considerable waste heat. Due to the inefficiency of the internal combustion engine, around 60-70% of the fuel energy is wasted in the form of heat.
 Rankine cycle has a great potential to be applied to harvest waste heat from automobiles. However, different from other low-grade waste heat sources, vehicles have limited space for the RC system integration and the waste heat is relatively unstable.
@@ -99,3 +101,16 @@ The dry/isentropic refrigerants are widely used in small-scale RC applications b
 Domingues et al. compared R123 and R245fa with water as working fluid for vehicle RC waste heat recovery potential from exhaust gas. The study revealed the advantage of using water as RC working fluid to recover waste heat from exhaust gas of vehicles equipped with spark-ignition engine. However, it was also found that the heat exchanger effectiveness for R123 and R245fa is higher than that for water, and consequently when the exhasut temperature is relatively low, organic fluids can be considered appropriate for vehicle RC application. Wang et al. studied the RC system with nine different pure organic working fluids for engine waste heat recovery. The results indicated that R11, R141b, R113 and R123 presented slightly higher thermodynamic performances while R245fa and R245ca are the most envrionmentfriendly working fluids for engine waste heat revocery applications.
 The dry/isentropic organic fluids have a few shortcomings. First, the intrisic property of dry/isentropic fluids reduce the area of net work in the T-s diagram, which means less power output compared to wet fluid, e.g. water. Second, to reduce the cooling load of the condenser, a recuperator (liquid-gas heat exchagner) is usually necessary to cool the superheated vapor to saturated state, which increases the system complexity and cost. Besides, most organic fluids have relatively low thermal instability temperatures compared to water, therefore at high temperature and pressure, the system might suffer chemical decomposition and deterioration. In addition, the current generation of refrigerants, e.g. HFCs (hydroflurocarbons), has a high global warming potential, which means that their use could be limited or banned in the near future. 
 
+
+* System integration
+To utilize the waste heat from vehicles via Rankine cycle system, a best compromise between the system complexity and fuel saving potential needs to be found out. Regarding vehicle integration, it is widely acknowledged that how to minimize the system complexity, weight, costs and the negative effect on the existing components is more important than maximizing the RC power output.
+
+** Influence of the added weight
+An increased vehicle weight cannot be avoided due to extra system components, which would lead to more tractive effort required to accelerate the vehicle and more rolling resistance from the tires. It is roughly estimated that for every 100 pounds added to the vehicle, the fuel economy is decreased by 1-2 percent. For small passenger vehicles, the added-on weight has more impact to the fuel economy than it does on the long-haul diesel truck.
+
+** Influence of the added machinery/hardware
+A heat exchanger is necessary to transmit the heat from exhaust gas to working fluid of the RC system at excellent efficiency, which will increase the engine back pressure and affect the engine performance, followed by a large horsepower loss. Therefore the overall added exhaust back pressure should be limited to avoid big engine performance deterioration. On the other hand, the evaporator lowers the exhaust gas temperature, which decreases the exhaust gas velocity and thus a smaller pressure loss through the piping and components following the evaporator. Both effects should be considered when the engine back pressure increment is calculated. Boretti claimed that turbocharged engines may better work with an increased back pressure than naturally aspirated engines.
+The heat coming from the RC condenser needs to be dissipated to the environment, which increases the cooling demand of the vehicles. There are basically two ways to condense the RC work fluid, a separate air-cooled condenser and integrating into the existing engine cooling loop. The downside of this integration strategy is that the engine coolant temperature at the condenser inlet may be too high to completely condense and sub-cool the RC working fluid. Also the available cooling capacity of the radiator may not be enough, which will restrict the condenser heat rejection and thus RC power output. In addition, additional heat transferred to the engine cooling loop requires a coolant circulation at higher speed and higher cooling air velocity, which lead to an increase coolant pump power consumption and increase air flow resistance. On the other hand, keeping the two components separated leads to an increased space needed for installation and increased air resistance.
+
+** How to use the energy produced
+Generally there are two ways to use this recovered energy: outputting the mechanical energy directly to the crank shaft and combining the RC system with electrical generators to convert the mechanical energy into electricity. For small passenger vehicles, the driving profile is not stable which leads to a fluctuating exhaust gas temperature, then the second method seems to be a more reasonable option.
