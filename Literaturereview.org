@@ -10,6 +10,7 @@
 ** TODO Capire bene l'influenza delle perdite di pressione e se usare il sistema evaporative cooling potrebbe aiutare (reference 70)
 ** TODO Integration of the WHR with a battery pack 
 ** TODO Compare efficiencies of different expanders at variable mass flow rate
+** TODO Boretti document
 * Introduction to the problem
 On-road vehicles, which convert around one third of the fuel energy into useful mechanical energy for propulsion, are moving energy conversion systems that generate considerable waste heat. Due to the inefficiency of the internal combustion engine, around 60-70% of the fuel energy is wasted in the form of heat.
 Rankine cycle has a great potential to be applied to harvest waste heat from automobiles. However, different from other low-grade waste heat sources, vehicles have limited space for the RC system integration and the waste heat is relatively unstable.
@@ -18,7 +19,8 @@ Engine coolant and exhaust gas are two main heat sources in a vehicle, which car
 
 
 * Possibile solutions
-** Rankine cycle
+** Organic Rankine Cycle
+Organic Rankine Cycle (ORC), which uses an organic fluid with a low boiling point working medium, is considered as the most promising technology to recover energy from low-grade waste heat.
 The RC system is an interesting system to harvest part of the wasted energy. An RC system is made of four main components:
 - Evaporator
 - Expander
@@ -41,6 +43,23 @@ It was argued that the reason why it is not advantageous to build combined engin
 There are two additional configurations possible for WHR. Instead of using engine coolant to preheat the working  uid, the engine block, which has higher temperature, is used to partially evaporate the working fluid. For this structure, complete evaporation of the working  uid inside the engine block should be prevented. It should reach intermediate boiling in the engine block, so that two-phase mixture would flow out of the engine block and into the evaporator to complete the boiling and superheating process by exhaust gas. The second option is to build separate system loops and use different working fluids to match the speci c characteristics of engine coolant and exhaust gas. This system has been developed by BMW, in which waster was used as the medium in the high-temperature (HT) loop and ethanol as working fluid in the low-temperature (LT) loop. The dual loop system can utilize the full potential of the waste energy with the disadvantage of large system volume and system complexity. Another RC system which integrated with engine cooling, this system minimized the number of required components by adopting an evaporative engine cooling structure and a refrigerant as the working fluid, so that the engine functioned as an evaporator and the existing radiator worked as a condenser. The only extra component added to the system is an expander for power conversion. However, this structure requires a modification of the existing engine cooling system, while the current engine cooling technology is quite mature and widely taken and has been using 50/50 water ethylene glycol as the coolant for decades.
 
 When selecting the different configurations, different factors have to be take into consideration as the maximization of the recovered energy is not the only objective to pursue. System complexity, component volume and weight, and the resulted extra cost added to the vehicles and the payback period are also big concerns.
+
+**** Dual-loop systems (University of glasgow)
+A dual-loop ORC is presented to simultaneously recover energy from both the exhaust gases and the coolant of a petrol engine. A high-temperature (HT) ORC loop is used to recover heat from the exhaust gases, while a low-temperature (LT) ORC loop is used to recover heat from the coolant and the condensation heat of the HT loop.
+The results show that the dual-loop ORC can effectively recover the waste heat from the petrol engine, as reported in the table:
+
+| Regime         | Thermal efficiency increase |
+|----------------+-----------------------------|
+| high - speed   | 20 - 24 %                   |
+| medium - speed | 14 - 20 %                   |
+| low - speed    | 30 %                        |
+
+Because the temperatures and thermodynamic properties of the exhaust and coolant from an internal combustion engine differ a lot, it is impossible to find a simple ORC architecture to complete heat recovery of these two kinds of waste heat simultaneously. Many different ORC systems were proposed for engine waste recovery. Currently, a dual-loop cycle designed by BMW has caused the greatest attention. Freymann et al, 2008, employed water and ethanol as the working fluids for BMW’s schematic. Because both water and ethanol are wet fluids, large irreversibility will be produced during the heat transfer processes.
+Wang et al, 2012, Zhang et al, 2013, and Yang et al, 2014, proposed a dual-loop ORC system using R245fa and R134a as working fluids and estimated their energy saving potential for gasoline and diesel engines, respectively. Meanwhile, Shu et al, 2014, Song and Gu, 2015, studied the performances of dual-loop ORCs using different working fluids.
+
+[INSERIRE SCHEMATICO DEL CICLO A DOPPIO LOOP E DIAGRAMMA T-S]
+
+The thermal efficiency of the HT loop with R1233zd is slightly higher than that of the R245fa. On the other hand, the thermal efficiencies of the LT loop using R1234yf are slighter lower than those of the R134a under all the ambient temperatures. As a result, the thermodynamic performance of the dual-loop ORC with R1233zd and R1234yf is slightly higher than that with R245fa and R134a. However, the dual-loop ORC with R1233zd and R1234yf has better environmental performance and thus more suitable for engine waste heat recovery.
 
 *** Applications to passenger vehicles to date
 
@@ -100,6 +119,15 @@ The dry/isentropic refrigerants are widely used in small-scale RC applications b
 Domingues et al. compared R123 and R245fa with water as working fluid for vehicle RC waste heat recovery potential from exhaust gas. The study revealed the advantage of using water as RC working fluid to recover waste heat from exhaust gas of vehicles equipped with spark-ignition engine. However, it was also found that the heat exchanger effectiveness for R123 and R245fa is higher than that for water, and consequently when the exhasut temperature is relatively low, organic fluids can be considered appropriate for vehicle RC application. Wang et al. studied the RC system with nine different pure organic working fluids for engine waste heat recovery. The results indicated that R11, R141b, R113 and R123 presented slightly higher thermodynamic performances while R245fa and R245ca are the most envrionmentfriendly working fluids for engine waste heat revocery applications.
 The dry/isentropic organic fluids have a few shortcomings. First, the intrisic property of dry/isentropic fluids reduce the area of net work in the T-s diagram, which means less power output compared to wet fluid, e.g. water. Second, to reduce the cooling load of the condenser, a recuperator (liquid-gas heat exchagner) is usually necessary to cool the superheated vapor to saturated state, which increases the system complexity and cost. Besides, most organic fluids have relatively low thermal instability temperatures compared to water, therefore at high temperature and pressure, the system might suffer chemical decomposition and deterioration. In addition, the current generation of refrigerants, e.g. HFCs (hydroflurocarbons), has a high global warming potential, which means that their use could be limited or banned in the near future. 
 
+**** List of possible working fluids
+
+- Ethanol
+- R134a
+- R236fa
+- R245fa
+- R1233zd (for high temperature)
+- R1234yf (for low temperature), both have lower toxicities than the two before but similar characteristics
+- 
 
 * System integration
 To utilize the waste heat from vehicles via Rankine cycle system, a best compromise between the system complexity and fuel saving potential needs to be found out. Regarding vehicle integration, it is widely acknowledged that how to minimize the system complexity, weight, costs and the negative effect on the existing components is more important than maximizing the RC power output.
