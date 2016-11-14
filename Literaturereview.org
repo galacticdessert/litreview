@@ -34,7 +34,7 @@ Extensive work has been poured in RC + ICE combinations, leading to fuel saving 
 
 RC are system widely adopted in a large range of WHR situations, however heat sources on vehicles are different from other typical industrial heat sources, which are stable and no space limitation for the RC system. To be technically feasible for vehicle RC application, the cycle system should be kept as simple as possible and utilize components that already exist in the vehicles in order to reduce the added expense, weight and complexity of the system. Besides, the temperature ranges of the two main heat sources on vehicles are significantly different which requires special treatment.
 
-*** Possible configurations - advantages and disadvantages
+*** Possible configurations - generation of mechanical power
 
 *[INSERISCI FIGURE DA TOYOTA]*
 
@@ -46,7 +46,7 @@ There are two additional configurations possible for WHR. Instead of using engin
 
 When selecting the different configurations, different factors have to be take into consideration as the maximization of the recovered energy is not the only objective to pursue. System complexity, component volume and weight, and the resulted extra cost added to the vehicles and the payback period are also big concerns.
 
-**** Dual-loop systems (University of glasgow)
+**** Dual-loop systems (University of Glasgow)
 A dual-loop ORC is presented to simultaneously recover energy from both the exhaust gases and the coolant of a petrol engine. A high-temperature (HT) ORC loop is used to recover heat from the exhaust gases, while a low-temperature (LT) ORC loop is used to recover heat from the coolant and the condensation heat of the HT loop.
 The results show that the dual-loop ORC can effectively recover the waste heat from the petrol engine, as reported in the table:
 
@@ -65,6 +65,7 @@ The thermal efficiency of the HT loop with R1233zd is slightly higher than that 
 
 **** WHR for light duty diesel engines (Thomas Briggs etc.)
 Lab demonstration was designed to maximize the peak brake thermal efficiency of the engine, and the combined system achieved an efficiency of 45%. A modern automotive diesel engine can easily achieve a 42% brake thermal efficiency at its optimum operating point.
+In order for the engine-out NOx emission to be ≤ 1.0 g/bhp-hr, the 2007/2010 heavy-duty diesel engines have to be operated with a high EGR rate and the delayed combustion. These engine operation conditions result in penalties in the engine efficiency and the fuel economy: increased exhaust temperatures were observed from engines operated with such an emissions-reduction strategy. The high exhaust temperature indicates that the engine exhaust is with a high energy level. DPF needs to be regenerated periodically by burning up the loaded carbon particles, which boosts the exhaust energy level.
 The high load factor of heavy-duty engines was deemed a more appropriate match to bottoming cycles. However, in recent years there has been an increased emphasis on light-duty vehicle efficiency as well.
 The organic Rankine cycle system was installed on a General Motors 1.9-liter diesel engine. The high exhaust temperature drove the selection of exhaust heat as the energy source for the ORC. Since the ORC impacts the backpressure on the engine and therefore its performance it is necessary to analyze the change in efficiency between the engine-only and engine +ORC operating cases.
 Engine operation was not significantly affected by the addition of the ORC heat exchangers to the exhaust system. The backpressure at the turbine exit was increased by 13.8 kPa; this is a similar backpressure increase as a muffler would provide. Past researchers have found that the heat exchangers can replace the muffler in a vehicle, eliminating the additional loss that would otherwise be expected.
@@ -78,6 +79,8 @@ This system tries to simplify the conventional Rankine cycle to make it applicab
 The pressure ratio here represents the ratio between the pressure P1 at the expander inlet and the pressure P2 at the outlet. (Namely, Pressure ratio = P1 /P2) It is found from the figure that the greater becomes the pressure ratio or the greater becomes waste heat, the greater becomes the energy recovery. The fuel economy impovement rate under the low load running conditions (vehicle speed: 40 km/h; road gradient: 0 %) was approximately 4.5 % where the pressure ratio was 2.0, and the improvement rate under the same ranning condition was about 7 % where the pressure ratio was 3.0.
 According to an experimental setup, paired with a 1.5 liters engine, the maximum energy recovery was 400 [Watt] under the hill-clibming condition, 240 [Watt] under the 40km/h running condition, and 160 [Watt] under the idling condition. While the pressure ratio became higher as the expander revolution became lower, the energy recovery began to drop as the revolution became lower than 800 rpm, due to the drop of expander efficiency. It is found that the energy recovery became lower as the ambient temperature became higher. It was because the pressure on the lower side (P2 , on the condenser side) became higher as the ambient temperature became higher, and the pressure difference between P1 and P2) would not exist unless the pressure on the higher side (P1).
 In the experiment conducted in 1993 by Oomori and Ogino, approximately 3% of the engine output energy was recovered at the ambient temperature of 25 °C, though the energy recovery rate varies in line with the ambient temperature.
+*** Possible configurations - generation of electrical power
+
 *** Applications to passenger vehicles to date
 
 **** Possible efficiency improvements
