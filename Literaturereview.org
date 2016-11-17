@@ -172,7 +172,7 @@ The review indicated that traditional approaches have a common feature when they
 |             25 |                39% |
 |             30 |                41% |
 
-Typically the amount of water injected is about three times the amount of air being compressed. There is no loss of water by evaporation since saturation is reached with a low water vapour mass fraction at low temperatures and high pressures. A high-pressure two-phase water/air mixture leaves the isothermal compressor at the end of each compression stroke. The phases are separated and the liquid water phase is cooled and re-injected. Commercial water separators can quite easily achieve separation efficiencies.
+Typically the amount of water injected is about three times the amount of air being compressed. There is no loss of water by evaporation since saturation is reached with a low water vapour mass fraction at low temperatures and high pressures. A high-pressure two-phase water/air mixture leaves the isothermal compressor at the end of each compression stroke. The phases are separated and the liquid water phase is cooled and re-injected. Commercial water separators can quite easily achieve separation efficiencies. The isothermal compressor does not consume water, but some water is lost through the injection into the low temperature heat exchangers. The make-up water needs to be de-ionised to avoid corrosion and the formation of deposits, however the economic (and environmental) effects ofthis water consumption are small.
 Main advantages of the splitting of the compression and expansion strokes into separate cylinders are:
 - reduction of the compression work by induction into a cool cylinder or direct cooling of the charge air during compression;
 - decoupling of the compression and expansion strokes effectively enabling a Miller cycle;
@@ -201,7 +201,17 @@ The reason why the isoengine can be more efficient than the Otto or Diesel engin
 #+CAPTION: SAnkey diagram of the energy flows in the ICWHR
 [[./img/sankey.jpg]]
 
+Of particular significance is the discrepancy of energy and exergy content of the air after the isothermal compressor at station 8. While the energy ofthe cold compressed air is relatively small (324 kW), its exergy (i.e. energy that could be converted into electrical power in an ideal device) is 2.7 MW. Since the temperature is still close to ambient, the compressed air flow can make use ofheat available from various sources within the engine. By the time the air flows fully preheated into the power cylinders, it represents an exergy flow of 5.3 MW.
 
+#+ATTR_LATEX: :width 12cm
+#+CAPTION: Temperature, entropy-diagram for the isoengine cycle and a modern gas turbine cycle
+[[./img/comparison.jpg]]
+
+By comparison of the exhaust temperatures for both cycles the T,s-diagram indicates that the specific energy lost with the exhaust gas of the isoengine is much lower than that of the gas turbine. This effect is even more significant when considering the exergy loss with the exhaust gas. The average temperature of heat rejection from the cycle can be calculated by integrating the incremental heat rejected times the temperature for the exhaust gas, the isothermal compressor and the air pre-cooler, then dividing by the total heat rejected. This method, which allows for the latent heat ofthe water vapour, indicates an overall average heat rejection temperature of 340 K.
+*The data provided in Tables 1 and 4 yield an exergetic efficiency of over 80% for the power cylinders, i.e. the combustion is far less irreversible than in conventional systems.*
+Some thermodynamic cycles can achieve high efficiency only if specific work is sacrificed. This is not the case with the isoengine. the graph shows a substantially greater area of the isoengine cycle on the T,s graph than the gas turbine cycle, indicating a much higher specific work. 
+
+Some experiments have been performed during the Proof-of-Concept phase, which suggest that the isobaric combustion process ofthe isoengine will give lower NOx emissions than recip- rocating diesel and gas engines, in which there is a substantial pressure rise during combustion. The presence of additional water vapour will also assist in the reduction of NOx in the isoengine.
 
 * System integration
 To utilize the waste heat from vehicles via Rankine cycle system, a best compromise between the system complexity and fuel saving potential needs to be found out. Regarding vehicle integration, it is widely acknowledged that how to minimize the system complexity, weight, costs and the negative effect on the existing components is more important than maximizing the RC power output.
