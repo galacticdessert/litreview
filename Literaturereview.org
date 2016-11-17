@@ -193,8 +193,16 @@ Major findings:
 The theoretical analysis indicate that the upper limits of efficiency of both the split cycle and combined cycle are about 20% higher than the conventional diesel cycle. The overall efficiency of split cycle is slightly higher comparing to that of combined cycle, especially under low compression ratio conditions.
 Due to the large evaporation latent heat and heat capacity of water/ethanol mixture, the maximum working fluid temperature of the combined cycle is much lower comparing to that on split cycle engine. However, the heat recuperating efficiency of combined cycle is 5% higher than that of the split cycle when the exhaust temperature Texh is 949 K (CR = 17). These two values get closer when T_exh decreases.
 To guarantee the working fluid keeps in gas phase after the expansion process in the turbine, and to reduce the waste recovery system cost, the working fluid temperature is cooled down to 365 K for combined cycle case, which is much higher than that in split cycle. According to the Carnot cycle based thermal efficiency analysis, the energy conversion efficiency of the combined cycle is 12.1%, which is much lower than the case of the split cycle engine.
-Due to the isothermal compression, the intake temperature of a split cycle engine is lower than the original diesel engine even it is heated by the exhaust gas in the recuperator. So the in-cylinder combustion temperature will be lower than the diesel case as well. Such a low in-cylinder temperature leads to a low heat transfer losses during the combustion process.
+Due to the isothermal compression, the intake temperature of a split cycle engine is lower than the original diesel engine even it is heated by the exhaust gas in the recuperator. So the in-cylinder combustion temperature will be lower than the diesel case as well. Such a low in-cylinder temperature leads to a low heat transfer losses during the combustion process. 
 Based on the above analysis of the heat recuperation process and engine combustion process, the system efficiencies of the combined cycle and the split cycle are achieved. The indicated thermal efficiency gth of combined cycle is increased to 44.2%, which demonstrate a 3.8% efficiency improvement comparing to the original diesel cycle. However, the split cycle based intra-cycle WHR method yielding a system thermal efficiency of 52.2%, which is much higher than that of the combined cycle.
+The reason why the isoengine can be more efficient than the Otto or Diesel engine is that much of the thermal energy ofthe exhaust gas and the turbo-charged intake air and virtually all heat from the cooling water can be reintegrated into the process, while the amount of energy rejected to the environment is reduced. The amount ofthermal energy added to the combustors with the preheated air is about twice as much as the mechanical energy added to the air during isothermal compression.
+
+#+ATTR_LATEX: :width 12cm
+#+CAPTION: SAnkey diagram of the energy flows in the ICWHR
+[[./img/sankey.jpg]]
+
+
+
 * System integration
 To utilize the waste heat from vehicles via Rankine cycle system, a best compromise between the system complexity and fuel saving potential needs to be found out. Regarding vehicle integration, it is widely acknowledged that how to minimize the system complexity, weight, costs and the negative effect on the existing components is more important than maximizing the RC power output.
 
