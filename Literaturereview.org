@@ -169,6 +169,17 @@ In general, screw expander can tolerate two-phase flow and is highly efficient i
 *** Working Fluids
 Special attention should be paid to the working fluid selection according to the heat source temperature, which has a significant effect on the system thermal and exergetic efficiency. When implementing a RC system to a passenger vehicle is considered, stricter criterion should be adopted for the fluid selection to minimize the harm potential to passengers in case leakages or crashes happen, e.g. low flammability level is a major concern for passenger vehicle application. Therefore, alcohols and hydrocarbons, in spite of their good thermodynamic efficiencies, are arguably not the best candidates. Instead, the refrigerants, which have already been used in automotive AC systems, are usually better options. Generally, according to the slope of the saturation curve, the working fluid can be categorized into three different types, wet fluid, dry fluid and isentropic fluid.
 
+The criterions of a suitable working fluid are:
+- high decomposition temperature to withstand hot source
+- suitable evaporating temperature for the hot source
+- relatively low evaporating pressure to keep the system safe and lower pumping losses
+- large specific heat capacity to absorb the waste heat using less amount of working fluid
+- Large specific enthalpy drop along the expansion process to output as much power as possible
+- Condensing pressure close to ambient pressure to decrease the possibility of negative pressure in the system.
+- Dry fluid to minimize the requirement for super-heat and keep the expander safe
+- Low toxicity, low flammability and low cost
+- Environmental friendly
+
 Most inorganic fluids are wet fluids, but this means that the expansion ends in two-phase region. Water has been used by auto manufacturers like Honda and BMW, but according to Arias et al. when water was selected as the working fluid, the waste heat from the engine coolant wouldn’t be effectively recovered by the system due to the mismatch between the low temperature of engine coolant and high boiling temperature of water. Therefore, it is safe to conclude that water is a preferable working fluid for high exhaust gas temperature ranging from 500 to 800 °C.
 
 *[INSERIRE GRAFICO DEI FLUIDI CON LE DIFFERENZA, CARINO DA TOYOTA]*
@@ -180,6 +191,15 @@ The dry/isentropic refrigerants are widely used in small-scale RC applications b
 Domingues et al. compared R123 and R245fa with water as working fluid for vehicle RC waste heat recovery potential from exhaust gas. The study revealed the advantage of using water as RC working fluid to recover waste heat from exhaust gas of vehicles equipped with spark-ignition engine. However, it was also found that the heat exchanger effectiveness for R123 and R245fa is higher than that for water, and consequently when the exhasut temperature is relatively low, organic fluids can be considered appropriate for vehicle RC application. Wang et al. studied the RC system with nine different pure organic working fluids for engine waste heat recovery. The results indicated that R11, R141b, R113 and R123 presented slightly higher thermodynamic performances while R245fa and R245ca are the most envrionmentfriendly working fluids for engine waste heat revocery applications.
 
 The dry/isentropic organic fluids have a few shortcomings. First, the intrisic property of dry/isentropic fluids reduce the area of net work in the T-s diagram, which means less power output compared to wet fluid, e.g. water. Second, to reduce the cooling load of the condenser, a recuperator (liquid-gas heat exchagner) is usually necessary to cool the superheated vapor to saturated state, which increases the system complexity and cost. Besides, most organic fluids have relatively low thermal instability temperatures compared to water, therefore at high temperature and pressure, the system might suffer chemical decomposition and deterioration. In addition, the current generation of refrigerants, e.g. HFCs (hydroflurocarbons), has a high global warming potential, which means that their use could be limited or banned in the near future. 
+
+Results show that R123 and R245fa present the best thermodynamic performance (the highest thermal efficiency and maximum net power output per unit mass flow rate of exhaust gas) as well as the best economical efficiency (the lowest electricity production cost and minimum ratio of total heat transfer area to net power output).
+
+The main differences between the two working fluids are:
+- Due to the differences in the properties such as convective heat transfer coefficient and specific heat capacity, R245fa absorbs more heat at all the conditions and obtains higher potential to output power at light-and-medium duty, while R123 only has similar power output ability at heavy duty. However, consid- ering the limited cooling capacity on-board, R123 shows advantage at heavy duty, since it absorbs less heat therefore requires less cooling.
+- The expander designed for R245fa works well at varying con- ditions since R245fa has a smaller variation range of expansion ratio, while the expander designed for R123 is more suitable for steady conditions.
+- Considering the conclusions above and different decomposition temperature, R123 suits better when ORC is designed for long- haul heavy-duty truck, while R245fa is more suitable for city bus.
+- Imposing the efficiency of expander by the data in literature, the thermal efficiency of the system which combined original en- gine and OS/ORC using R123 can reach close to 45% at some working conditions. The average fuel consumption improve- ment of the whole conditions over the original is 2.52% aver- agely, while the maximum improvement as much as 2.8%.
+- The improvement of thermal efficiency and fuel consumption brought by OS/ORC system to the original engine is not as obvious as expected, since the heat absorption capacity of OS/ ORC is not sufficient enough in the heavy duty conditions. The heat exchange capacity of evaporator, the charge capacity of organic fluid and the cooling capacity of refrigerating unit all require further adaptation.
 
 **** List of possible working fluids
 
